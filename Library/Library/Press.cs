@@ -24,6 +24,8 @@ namespace Library
         {
             try
             {
+                //TODO: получить исключение FormatException здесь невозможно, а вот присвоить double.NaN и double.*Infinite вполне, лучше проверить на это
+                //TODO: и в других классах тоже
                 _weight = weight;
                 _repetitions = repetitions;
                 _sets = sets;
